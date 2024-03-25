@@ -1,7 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
-:root { 
-    --cor-de-fundo: #4b7c57; 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'):root { 
+    --cor-de-fundo: #7ba586; 
     --verde: #ac2b2b; 
     --branco: #504545; 
     --botao-ativo: #555555; 
