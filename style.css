@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
+
 :root {
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
@@ -9,11 +10,14 @@
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
+
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
+
+
 
 
 .conteudo-principal {
@@ -25,16 +29,18 @@ body {
     width: 100%;
     margin: 0 auto;
 }
-
 .titulo-principal {
     text-align: left;
     width: 100%;
     font-size: 32px;
 }
 
+
 .titulo-principal span {
     color: var(--verde);
 }
+
+
 
 
 .botao {
@@ -53,18 +59,22 @@ body {
     border-top: none;
 }
 
+
 .botao:first-child {
     border-radius: 40px 40px 0 0;
 }
+
 
 .botoes {
     display: block;
 }
 
+
 .botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
+
 
 .abas-textos{
     background-color: var(--texto-fundo);
@@ -75,9 +85,11 @@ body {
     display:block;
 }
 
+
 .aba-conteudo{
     display: none;
 }
+
 
 .aba-conteudo-titulo-principal{
     font-size: 28px;
@@ -88,21 +100,21 @@ body {
     color: var(--verde);
     text-transform: uppercase;
 }
-.contador{
-    font-size: 20px;
-    text-align: center;
-}
+
 
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
     }
 
+
     .botao:first-child {
         border-radius: 40px 0 0 0;
     }
+
 
     .botao:last-child {
         border-radius: 0 40px 0 0;
     }
 }
+
